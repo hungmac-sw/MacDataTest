@@ -1,0 +1,27 @@
+{
+  "name": "mac/data-test",
+  "description": "Mac - Data test plugin",
+  "type": "shopware-platform-plugin",
+  "version":"1.0.0",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Mac\\DataTest\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Hung Mac",
+      "role": "Manufacturer",
+      "email": "hi@hungmac.com",
+      "homepage": "https://hungmac.com/"
+    }
+  ],
+  "extra": {
+    "shopware-plugin-class": "Mac\\DataTest\\MacDataTest",
+    "label": {
+      "de-DE": "Data test plugin",
+      "en-GB": "Data test plugin"
+    }
+  }
+}
